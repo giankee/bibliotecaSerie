@@ -43,7 +43,12 @@
                         <a class="nav-link" href="{{route('series.aList')}}">Series</a>
                     </li>
                 </ul>
-            </div><a class="nav-link text-white text-center" href="{{route('mShowLogin')}}"><i class="fa fa-sign-in" aria-hidden="true"></i>&nbsp; Login</a>
+            </div>
+            @if (Auth::check())
+            <a class="nav-link text-white text-center" href="{{route('login.aShowLogout')}}"><i class="fa fa-sign-in" aria-hidden="true"></i>&nbsp; Salir</a>
+            @else
+            <a class="nav-link text-white text-center" href="{{route('mShowLogin')}}"><i class="fa fa-sign-in" aria-hidden="true"></i>&nbsp; Login</a>
+            @endif
         </div>
     </nav>
 	<!-- fin menu -->

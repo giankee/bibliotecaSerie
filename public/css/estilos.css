@@ -1,0 +1,188 @@
+@import '~font-awesome/css/font-awesome.min.css';
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    background-color: lightblue;
+    color: #FFF;
+}
+
+section {
+    text-align: center;
+}
+
+
+.footer #button {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    position: relative;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.footer #button:hover {
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    position: relative;
+}
+
+.footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 2em;
+    overflow: hidden;
+    margin: 0 auto;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index: 999;
+}
+
+.footer:hover {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    height: 10em;
+}
+
+.footer #container {
+    margin-top: 5px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: #3A3A3A;
+}
+
+.footer #cont {
+    position: relative;
+    top: -45px;
+    right: 235px;
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.footer_center {
+    width: 900px;
+    float: left;
+    text-align: center;
+}
+
+.footer h3 {
+    font-family: 'Helvetica';
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+
+.card-body.home{
+  color: black;
+}
+
+.card img.imgCard{
+  width: 300px;
+  height: 200px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.card-header#Listados{
+    background-color: #3A3A3A;
+}
+
+
+/*Tablas*/
+.table {
+    font-size: 0.9em;
+    background-color: white;
+  }
+  
+.table thead {
+  background-color: whitesmoke;
+}
+
+.table thead th {
+  border-bottom: 2px solid #CCDBDC;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.table tbody tr {
+  border-bottom: 2px solid #CCDBDC;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.table tbody td {
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  vertical-align: middle;
+}
+
+.table tbody strong {
+  color: #69A9B0;
+  font-size: 0.9rem;
+}
+
+.table tbody a.hiper {
+  color: #69A9B0;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.table tbody tr.filaPar {
+  background-color: whitesmoke;
+}
+
+.table tbody .indice {
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #CCDBDC;
+}
+
+.tituloLabel label{
+  color: black;
+  padding-left: 20px;
+}
+
+.presentacion label{
+  color:black;
+  font-size:20px;
+  font-weight: bold;
+}
+
+h2 {
+  color: black;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.boxForm{
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1.5rem;
+}
